@@ -11,10 +11,14 @@
       "id": 2
     },
     {
+      "isCaught": true,
+      "date": "13/11/2019",
       "name": "venusaur",
       "id": 3
     },
     {
+      "isCaught": true,
+      "date": "12/11/2019",
       "name": "charmander",
       "id": 4
     },
@@ -79,6 +83,8 @@
       "id": 18
     },
     {
+      "isCaught": true,
+      "date": "13/11/2019",
       "name": "rattata",
       "id": 19
     },
@@ -95,6 +101,8 @@
       "id": 22
     },
     {
+      "isCaught": true,
+      "date": "13/11/2019",
       "name": "ekans",
       "id": 23
     },
@@ -139,6 +147,8 @@
       "id": 33
     },
     {
+      "isCaught": true,
+      "date": "13/11/2019",
       "name": "nidoking",
       "id": 34
     },

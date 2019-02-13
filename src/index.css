@@ -12,6 +12,26 @@ body {
   box-sizing: border-box;
 }
 
+.status {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.status--loading {
+  background: rgb(218, 243, 255);
+}
+.status--catch {
+  background: rgb(255, 237, 75);
+}
+.status--error {
+  background: rgb(255, 123, 123)
+}
+
 main {
   margin-top: 30px;
   display: flex;
@@ -26,7 +46,9 @@ article {
 
 img {
   max-width: 100%;
+  flex: 0 0 auto;
   display: inline-block;
+  object-fit: scale-down;
 }
 
 .page-header {

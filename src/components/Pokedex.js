@@ -1,6 +1,6 @@
 import React from 'react';
 import PokemonCard from './PokemonCard';
-
+import Statusbar from './Statusbar';
 
 class Pokedex extends React.Component {
     componentDidMount() {
@@ -14,6 +14,7 @@ class Pokedex extends React.Component {
         const { setPokemon, catchPokemon } = this.props;
         return (
             <React.Fragment>
+                <Statusbar data={this.props.data} />
                 <main className="App">
                     {this.props.data.pokemons.map(
                         pokemon => <PokemonCard set={() => {setPokemon(pokemon)}} 
